@@ -12,6 +12,7 @@ namespace Tyuiu.MaslovDM.Sprint2.Task4.V23.Lib
 
             return Math.Round(z, 3);
 
+
         }
     }
 }

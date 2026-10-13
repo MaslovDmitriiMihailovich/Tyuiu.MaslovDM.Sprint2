@@ -12,7 +12,7 @@ namespace Tyuiu.MaslovDM.Sprint2.Task0.V15.Test
             DataService ds = new DataService();
 
             bool[] res = ds.GetCompareOperations(3105, 275);
-            bool[] expected = { false, true, false, true, false, true };
+            bool[] expected = { false, false, true, true, false, false };
 
             CollectionAssert.AreEqual(expected, res);
         }

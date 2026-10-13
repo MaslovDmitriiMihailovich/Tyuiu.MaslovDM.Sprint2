@@ -1,19 +1,22 @@
-﻿namespace Tyuiu.MaslovDM.Sprint2.Task0.V15.Lib
+﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint2;
+
+namespace Tyuiu.MaslovDM.Sprint2.Task0.V15.Lib
 {
-    public class DataService
+    public class DataService : ISprint2Task0V15
     {
-        public bool[] GetMassCompare(int x, int y)
+        public bool[] GetCompareOperations(int x, int y)
         {
-            bool[] result = new bool[6];
+            bool[] res = new bool[6];
 
-            result[0] = x - y == y * 10; 
-            result[1] = x % y != 80;    
-            result[2] = y * 2 < x;      
-            result[3] = x - y > y * 10;
-            result[4] = x + y <= x - y; 
-            result[5] = y * 2 >= x - y; 
+            res[0] = x == y;
+            res[1] = x != y;
+            res[2] = x < y;
+            res[3] = x > y;
+            res[4] = x <= y;
+            res[5] = x >= y;
 
-            return result;
+            return res;
         }
     }
 }

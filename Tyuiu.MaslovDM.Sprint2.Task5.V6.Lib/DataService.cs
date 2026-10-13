@@ -18,7 +18,7 @@ namespace Tyuiu.MaslovDM.Sprint2.Task5.V6.Lib
                 12 => "Дама",
                 13 => "Король",
                 14 => "Туз",
-                _ => "Неизвестное достоинство"
+                _ => "Неизвестно"
             };
 
             string suit = m switch
@@ -27,7 +27,7 @@ namespace Tyuiu.MaslovDM.Sprint2.Task5.V6.Lib
                 2 => "треф",
                 3 => "бубен",
                 4 => "червей",
-                _ => "неизвестной масти"
+                _ => "неизвестно"
             };
 
             return $"{rank} {suit}";

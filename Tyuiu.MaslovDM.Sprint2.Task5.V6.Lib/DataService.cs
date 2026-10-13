@@ -1,10 +1,11 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint2;
+using Tyuiu.Sprint2.Task4.V6.Lib;
 
-namespace Tyuiu.Sprint2.Task4.V6.Lib
+namespace Tyuiu.MaslovDM.Sprint2.Task5.V6.Lib
 {
-    public class DataService : ISprint2_Task4V6
+    public class DataService : ISprint2_Task5V6
     {
-        public string GetCardName(int m, int k)
+        public string FindCardNameAndValue(int m, int k)
         {
             string rank = k switch
             {
@@ -17,7 +18,7 @@ namespace Tyuiu.Sprint2.Task4.V6.Lib
                 12 => "Дама",
                 13 => "Король",
                 14 => "Туз",
-                _ => "Неизвестно"
+                _ => "Неизвестное достоинство"
             };
 
             string suit = m switch

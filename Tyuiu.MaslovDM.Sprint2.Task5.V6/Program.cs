@@ -1,7 +1,7 @@
 ﻿using System;
-using Tyuiu.Sprint2.Task5.V6.Lib;
+using Tyuiu.MaslovDM.Sprint2.Task5.V6.Lib;
 
-namespace Tyuiu.Sprint2.Task5.V6
+namespace Tyuiu.MaslovDM.Sprint2.Task5.V6
 {
     internal class Program
     {
@@ -15,7 +15,7 @@ namespace Tyuiu.Sprint2.Task5.V6
             Console.Write("Введите номер достоинства карты k (от 6 до 14): ");
             int k = Convert.ToInt32(Console.ReadLine());
 
-            string res = ds.GetCardName(m, k);
+            string res = ds.FindCardNameAndValue(m, k);
             Console.WriteLine($"Название карты: {res}");
 
             Console.ReadKey();

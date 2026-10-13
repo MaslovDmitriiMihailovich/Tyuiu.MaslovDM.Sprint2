@@ -11,6 +11,7 @@ namespace Tyuiu.MaslovDM.Sprint2.Task4.V23.Lib
                 : y + 12.0 * x - (1.0 / x);
 
             return Math.Round(z, 3);
+
         }
     }
 }

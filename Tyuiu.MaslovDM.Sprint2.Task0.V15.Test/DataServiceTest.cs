@@ -7,14 +7,14 @@ namespace Tyuiu.MaslovDM.Sprint2.Task0.V15.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void CheckGetMassCompare()
+        public void CheckGetCompareOperations()
         {
             DataService ds = new DataService();
 
-            bool[] result = ds.GetMassCompare(3105, 275);
-            bool[] expected = { false, false, true, true, false, false };
+            bool[] res = ds.GetCompareOperations(3105, 275);
+            bool[] expected = { false, true, false, true, false, true };
 
-            CollectionAssert.AreEqual(expected, result);
+            CollectionAssert.AreEqual(expected, res);
         }
     }
 }

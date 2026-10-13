@@ -20,7 +20,7 @@ namespace Tyuiu.MaslovDM.Sprint2.Task0.V15
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            bool[] result = ds.GetMassCompare(x, y);
+            bool[] result = ds.GetCompareOperations(x, y);
 
             Console.WriteLine(string.Join(", ", result));
 

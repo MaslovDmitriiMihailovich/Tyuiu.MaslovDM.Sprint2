@@ -1,6 +1,8 @@
-﻿namespace Tyuiu.Sprint2.Task5.V6.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint2;
+
+namespace Tyuiu.Sprint2.Task4.V6.Lib
 {
-    public class DataService
+    public class DataService : ISprint2_Task4V6
     {
         public string GetCardName(int m, int k)
         {

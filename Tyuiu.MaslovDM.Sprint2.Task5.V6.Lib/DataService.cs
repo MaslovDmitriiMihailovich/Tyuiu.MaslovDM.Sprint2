@@ -1,9 +1,8 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint2;
-using Tyuiu.Sprint2.Task4.V6.Lib;
 
 namespace Tyuiu.MaslovDM.Sprint2.Task5.V6.Lib
 {
-    public class DataService : ISprint2_Task5V6
+    public class DataService : ISprint2Task5V6
     {
         public string FindCardNameAndValue(int m, int k)
         {

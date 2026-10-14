@@ -30,7 +30,7 @@ namespace Tyuiu.MaslovDM.Sprint2.Task6.V11.Lib
                 }
             }
 
-            return $"{n:D2}.{m:D2}.{g}";
+            return $"{n}.{m}.{g}";
         }
     }
 

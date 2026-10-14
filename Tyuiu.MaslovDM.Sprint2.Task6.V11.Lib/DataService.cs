@@ -34,7 +34,5 @@ namespace Tyuiu.MaslovDM.Sprint2.Task6.V11.Lib
         }
     }
 
-    public interface ISprint2Task6V11
-    {
-    }
+   
 }
